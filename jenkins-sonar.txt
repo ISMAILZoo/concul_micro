@@ -75,7 +75,7 @@ pipeline {
                                          -Dsonar.projectKey=Client  \
                                          -Dsonar.sources=src/main/java \
                                          -Dsonar.host.url=http://localhost:9000 \
-                                         -Dsonar.token=sqa_abaa42c6cdc54d4d69e067a78183881cb7a90058"
+                                         -Dsonar.token=531ead150b6ef0b65b647e346437608b59cad194"
                                 }
                             }
                         }
@@ -90,7 +90,7 @@ pipeline {
                                          -Dsonar.projectKey=Voiture  \
                                          -Dsonar.sources=src/main/java \
                                          -Dsonar.host.url=http://localhost:9000 \
-                                         -Dsonar.token=sqa_abaa42c6cdc54d4d69e067a78183881cb7a90058"
+                                         -Dsonar.token=531ead150b6ef0b65b647e346437608b59cad194"
                                 }
                             }
                         }
