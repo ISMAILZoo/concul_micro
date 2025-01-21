@@ -74,7 +74,7 @@ pipeline {
                                     bat "${SONAR_SCANNER_HOME}/bin/sonar-scanner \
                                          -Dsonar.projectKey=Client  \
                                          -Dsonar.sources=src/main/java \
-                                         -Dsonar.host.url=http://localhost:9000 \
+                                         -Dsonar.host.url=https://sonarcloud.io \
                                          -Dsonar.token=531ead150b6ef0b65b647e346437608b59cad194"
                                 }
                             }
@@ -89,7 +89,7 @@ pipeline {
                                     bat "${SONAR_SCANNER_HOME}/bin/sonar-scanner \
                                          -Dsonar.projectKey=Voiture  \
                                          -Dsonar.sources=src/main/java \
-                                         -Dsonar.host.url=http://localhost:9000 \
+                                         -Dsonar.host.url=https://sonarcloud.io \
                                          -Dsonar.token=531ead150b6ef0b65b647e346437608b59cad194"
                                 }
                             }
