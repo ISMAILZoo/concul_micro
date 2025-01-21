@@ -13,7 +13,7 @@ pipeline {
             script {
                 checkout([$class: 'GitSCM',
                           branches: [[name: 'main']],
-                          userRemoteConfigs: [[url: 'https://github.com/Oussama-benrkia/consul-micro.git']]])
+                          userRemoteConfigs: [[url: 'https://github.com/ISMAILZoo/concul_micro.git']]])
             }
             }
         }
