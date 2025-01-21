@@ -72,10 +72,10 @@ pipeline {
                             withSonarQubeEnv('SonarQubeServer') { // Replace with your SonarQube Server name
                                 dir('Client') {
                                     bat "${SONAR_SCANNER_HOME}/bin/sonar-scanner \
-                                         -Dsonar.projectKey=Client  \
+                                         -Dsonar.projectKey=client-s_client  \
                                          -Dsonar.sources=src/main/java \
                                          -Dsonar.host.url=https://sonarcloud.io \
-                                         -Dsonar.token=531ead150b6ef0b65b647e346437608b59cad194"
+                                         -Dsonar.token=ce6ab1f0391e1a7be4ec54db00be38141134ae3a"
                                 }
                             }
                         }
@@ -87,10 +87,10 @@ pipeline {
                             withSonarQubeEnv('SonarQubeServer') {
                                 dir('Voiture') {
                                     bat "${SONAR_SCANNER_HOME}/bin/sonar-scanner \
-                                         -Dsonar.projectKey=Voiture  \
+                                         -Dsonar.projectKey=voiture_voiture  \
                                          -Dsonar.sources=src/main/java \
                                          -Dsonar.host.url=https://sonarcloud.io \
-                                         -Dsonar.token=531ead150b6ef0b65b647e346437608b59cad194"
+                                         -Dsonar.token=a2ce633de7ce4b2443333d9c5ac14a38b9460a3f"
                                 }
                             }
                         }
